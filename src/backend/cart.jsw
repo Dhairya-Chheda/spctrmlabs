@@ -1,0 +1,5 @@
+import wixStores from 'wix-stores-backend';
+
+export function getCurrentCart() {
+	return wixStores.getCurrentCart();
+}
